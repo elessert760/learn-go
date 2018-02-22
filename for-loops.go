@@ -9,7 +9,7 @@ func main() {
 		i = i + 1
 	}
 
-	for j := 7; j <= 9; j++ {
+	for j := 17; j <= 90; j++ {
 		fmt.Println(j)
 	}
 
@@ -18,8 +18,8 @@ func main() {
 		break
 	}
 
-	for n := 0; n <= 5; n++ {
-		if n%2 == 0 {
+	for n := 0; n <= 50; n++ {
+		if n%2 != 0 {
 			continue
 		}
 		fmt.Println(n)
