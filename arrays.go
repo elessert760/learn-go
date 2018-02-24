@@ -22,18 +22,20 @@ func main(){
       fmt.Println(value, i + 1)
     }
 
+
+    elem := "The 4th element of the array is"
     i := favNums3[3]
     fmt.Println("The 4th element of the array is " , i)
 
   switch i {
   case 1:
-  fmt.Println("one")
+  fmt.Println(elem, "one")
   case 2:
-  fmt.Println("two")
+  fmt.Println(elem, "two")
   case 3:
-  fmt.Println("three")
+  fmt.Println(elem, "three")
   case 4:
-  fmt.Println("four")
+  fmt.Println(elem, "four")
 }
 
 }
