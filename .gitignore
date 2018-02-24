@@ -2,3 +2,4 @@ dbquery.go
 
 dbquery
 
+*.csv
