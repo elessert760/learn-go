@@ -14,4 +14,8 @@ func main(){
 
     fmt.Println(favNums2[1])
 
+    favNums3 := [5]float64 {1,2,3.14,4,5}
+
+    fmt.Println(favNums3[2])
+
 }
