@@ -18,4 +18,22 @@ func main(){
 
     fmt.Println(favNums3[2])
 
+    for i, value := range favNums3 {
+      fmt.Println(value, i + 1)
+    }
+
+    i := favNums3[3]
+    fmt.Println("The 4th element of the array is " , i)
+
+  switch i {
+  case 1:
+  fmt.Println("one")
+  case 2:
+  fmt.Println("two")
+  case 3:
+  fmt.Println("three")
+  case 4:
+  fmt.Println("four")
+}
+
 }
