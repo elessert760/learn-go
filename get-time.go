@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/beevik/ntp" // Using pre-made NTP protocol implementation
 )
 
