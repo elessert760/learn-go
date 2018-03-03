@@ -80,4 +80,10 @@ func main() {
 		}
 	}
 	fmt.Println("2d: ", twoD)
+
+	str_slice := []string{"Z"}
+
+	str_slice = append(str_slice, "A", "B", "C")
+
+	fmt.Println(str_slice)
 }
