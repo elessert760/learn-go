@@ -88,6 +88,8 @@ func main() {
 
 	fmt.Println(str_slice)
 
-	fmt.Println(strings.ToLower(str_slice[2]))
+	for i := 0; i < len(str_slice); i++ {
+		fmt.Println(strings.ToLower(str_slice[i]))
+	}
 
 }
