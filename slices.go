@@ -5,6 +5,7 @@
 package main
 
 import "fmt"
+import "strings"
 
 func main() {
 
@@ -86,4 +87,7 @@ func main() {
 	str_slice = append(str_slice, "A", "B", "C")
 
 	fmt.Println(str_slice)
+
+	fmt.Println(strings.ToLower(str_slice[2]))
+
 }
