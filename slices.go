@@ -64,6 +64,7 @@ func main() {
 	// We can declare and initialize a variable for slice
 	// in a single line as well.
 	t := []string{"g", "h", "i"}
+	t = append(t, "j", "k", "banana for scale")
 	fmt.Println("dcl:", t)
 
 	// Slices can be composed into multi-dimensional data
