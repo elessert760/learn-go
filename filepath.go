@@ -12,5 +12,4 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(files)
-	fmt.Println(len(files)) // contains a list of all files in the current directory
 }
